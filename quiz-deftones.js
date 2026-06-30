@@ -12,3 +12,6 @@ function corrigirQuiz() {
     document.getElementById("resultado").innerHTML =
         `Você acertou ${pontos} de 10 perguntas!`;
 }
+function explorar() {
+    window.location.href = "explore-portugues.html";
+}
